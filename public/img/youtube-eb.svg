@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_00000066495041503167344950000008460037861440206509_);}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#EEE7E8;}
+</style>
+<linearGradient id="XMLID_00000025421326239420866180000006120101758061248951_" gradientUnits="userSpaceOnUse" x1="100.05" y1="153.8847" x2="100.05" y2="50.1153" gradientTransform="matrix(1 0 0 -1 0 202)">
+	<stop  offset="0" style="stop-color:#E30613"/>
+	<stop  offset="1" style="stop-color:#BE1622"/>
+</linearGradient>
+<path id="XMLID_3_" style="fill:url(#XMLID_00000025421326239420866180000006120101758061248951_);" d="M135.5,151.9H64.3
+	c-33.6,0-39.2-12.3-39.2-38.6V86.7c0-27.3,0-38.6,39.2-38.6h71.5c37.6,0,39.2,9.6,39.2,38.6v26.6
+	C174.7,144.6,166.1,151.9,135.5,151.9z"/>
+<polygon id="XMLID_2_" class="st1" points="82.9,78.4 123.2,99.3 82.9,120.3 "/>
+<polygon id="XMLID_1_" class="st2" points="118.2,102 82.9,78.4 123.2,99.3 "/>
+</svg>

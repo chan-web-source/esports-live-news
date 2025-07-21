@@ -1,0 +1,350 @@
+{
+ "translation": {
+  "common": {
+   "home": "首页",
+   "teams": "球队",
+   "matches": "比赛",
+   "tournaments": "锦标赛",
+   "loading": "加载中...",
+   "news": "新闻",
+   "latestNews": "最新消息",
+   "promoText": "200%奖金码，最高$100",
+   "upcoming": "即将开始",
+   "ongoing": "进行中",
+   "finished": "已结束",
+   "allMatches": "所有比赛",
+   "win": "胜",
+   "lose": "负",
+   "draw": "平",
+   "team": "队伍",
+   "maps": "地图",
+   "overview": "概况",
+   "tips": "提示",
+   "in": "在",
+   "days": "天",
+   "d": "天"
+  },
+  "header": {
+   "predictions": "预测",
+   "football": "足球",
+   "basketball": "篮球",
+   "esports": "电竞",
+   "login": "登录",
+   "register": "注册",
+   "betting": "投注",
+   "tournaments": "锦标赛"
+  },
+  "footer": {
+   "timezone": "亚洲/新加坡",
+   "launchNowAs": "立即启动为",
+   "getItOn": "获取",
+   "getItFrom": "下载自",
+   "gamblingTherapy": "赌博治疗",
+   "beGambleAware": "理性博彩",
+   "gamCare": "GamCare",
+   "copyright": "2019 - 2025 © 888 体育"
+  },
+  "bottomAds": {
+   "promo": "欢迎奖金高达 ",
+   "button": "开始使用"
+  },
+  "mainTournamentsList": {
+   "finals": "决赛",
+   "left": "剩余",
+   "noOngoingStage": "无进行阶段",
+   "noTournamentsAvailable": "无可用锦标赛",
+   "noMatchesAvailable": "无可用比赛",
+   "streak": "连胜",
+   "t30dWinrate": "30天胜率",
+   "winrate": "胜率",
+   "lastMatch": "上一场",
+   "dAgo": "天前",
+   "nearestMatch": "最近比赛",
+   "NA": "暂无",
+   "d": "天",
+   "division": "分区",
+   "upcomingMatchListTitle": "即将开始的比赛",
+   "finishedMatchListTitle": "已结束的比赛"
+  },
+  "promoCodeBlock": {
+   "promo": "促销码",
+   "promoText": "5美金免费筹码，无需存款！",
+   "button": "立即领取",
+   "promoCodeCopied": "促销码已复制",
+   "whoWillWin": "谁会赢？",
+   "upcomingMatchListTitle": "即将开始的比赛",
+   "finishedMatchListTitle": "已结束的比赛"
+  },
+  "matchEvents": {
+   "ONGOING": "进行中",
+   "UPCOMING": "即将开始",
+   "FINISHED": "已结束"
+  },
+  "leftPanel": {
+   "hello": "你好",
+   "helpAndSettings": "帮助与设置",
+   "language": {
+    "title": "语言",
+    "options": {
+     "english": "English",
+     "chinese": "中文"
+    }
+   },
+   "settings": {
+    "helpAndSettings": "帮助与设置",
+    "language": "语言",
+    "odds": "赔率",
+    "information": "信息"
+   },
+   "odds": {
+    "title": "赔率",
+    "options": {
+     "decimal": "小数",
+     "fractional": "分数",
+     "american": "美式"
+    }
+   },
+   "information": {
+    "title": "信息",
+    "options": {
+     "aboutUs": "关于我们",
+     "termsOfService": "服务条款",
+     "privacyPolicy": "隐私政策",
+     "contactSupport": "联系客服"
+    }
+   }
+  },
+  "constants": {
+   "leftPanelLoginSubItems": {
+    "login": "登录",
+    "register": "注册",
+    "accountRecovery": "找回账号"
+   },
+   "leftPanelAccountSubItems": {
+    "profile": "个人资料",
+    "logout": "退出登录"
+   },
+   "gameSubItems": {
+    "predictions": "预测",
+    "liveScore": "比分直播",
+    "matches": "比赛",
+    "tournaments": "锦标赛",
+    "teams": "球队"
+   },
+   "gameMenuItems": {
+    "football": "足球",
+    "basketball": "篮球",
+    "esports": "电竞",
+    "csgo": "CS2（CS:GO）",
+    "lol": "英雄联盟",
+    "dota2": "Dota 2",
+    "valorant": "无畏契约",
+    "rainbow6": "彩虹六号",
+    "callofduty": "使命召唤",
+    "rocketleague": "火箭联盟",
+    "overwatch": "守望先锋",
+    "arenaofvalor": "王者荣耀",
+    "pubg": "绝地求生",
+    "wildrift": "激斗峡谷"
+   },
+   "informationMenuItems": {
+    "contacts": "联系方式",
+    "about": "关于我们",
+    "subscription-policy": "订阅政策",
+    "jobs": "招聘",
+    "terms-and-conditions": "服务条款",
+    "privacy-policy": "隐私政策",
+    "cookie-policy": "Cookie 政策",
+    "responsible-gaming": "负责任的博彩"
+   },
+   "languageOptions": {
+    "en": "英语",
+    "zh": "中文"
+   },
+   "oddsOptions": {
+    "decimal": "小数",
+    "fractional": "分数",
+    "american": "美式",
+    "hk": "香港"
+   }
+  },
+  "subscriptionBanner": {
+   "heading": {
+    "prefix": "提高你的",
+    "highlight": "盈利",
+    "suffix": "在投注中"
+   },
+   "subheading": {
+    "prefix": "通过我们对超过",
+    "monthlyPredictionsText": "的每月预测",
+    "sources": "1000+",
+    "sourcesText": "来源的分析获得收益"
+   },
+   "button": {
+    "text": "立即获取"
+   }
+  },
+  "loginForm": {
+   "welcomeTitle": "欢迎",
+   "loginFailed": "登录失败，请检查账号信息",
+   "weixinLogin": "微信登录",
+   "qqLogin": "QQ登录",
+   "or": "或",
+   "email": "邮箱",
+   "password": "密码",
+   "signIn": "登录",
+   "forgotPassword": "忘记密码或账号",
+   "noAccount": "没有账号？",
+   "signUp": "注册"
+  },
+  "registerForm": {
+   "welcome": "欢迎",
+   "socialLogin": {
+    "wechat": "微信",
+    "qq": "QQ"
+   },
+   "divider": "或",
+   "form": {
+    "email": {
+     "label": "邮箱",
+     "placeholder": "请输入邮箱"
+    },
+    "password": {
+     "label": "密码",
+     "placeholder": "请输入密码"
+    }
+   },
+   "terms": {
+    "agreement": "注册即代表你同意我们的",
+    "termsOfService": "服务条款",
+    "and": "和",
+    "privacyPolicy": "隐私政策"
+   },
+   "ageConfirmation": "我确认我已年满18岁",
+   "submitButton": "下一步",
+   "footer": {
+    "prompt": "已有账号？",
+    "login": "登录"
+   },
+   "errors": {
+    "termsNotAccepted": "请接受条款和条件",
+    "emailAlreadyRegistered": "该邮箱已注册",
+    "registrationFailed": "注册失败，请稍后再试"
+   }
+  },
+  "finalDetailScore": {
+   "maps": "地图"
+  },
+  "recentMatchList": {
+   "homeTeam": "主队",
+   "awayTeam": "客队"
+  },
+  "home": {
+   "headerTitle": "全球体育赛事直播中心，一站式服务",
+   "sportsNewsTitle": "体育新闻网站",
+   "liveMatchesTitle": "正在进行的比赛",
+   "tomorrowMatchesTitle": "明日比赛",
+   "mainTournamentsTitle": "主要锦标赛",
+   "mainMatchesTitle": "主要比赛"
+  },
+  "matchDetail": {
+   "overview": "概况",
+   "title": "决赛",
+   "subtitle": "决赛详情",
+   "description": "比赛详细信息",
+   "button": "查看详情",
+   "liveUpdateListTitle": "比赛实时更新",
+   "finalMatchScoreTitle": "比赛最终比分",
+   "tournamentStandingTitle": "锦标赛排名",
+   "recentMatchListTitle": "最近比赛",
+   "upcomingMatchListTitle": "即将进行比赛",
+   "oddsRankingTitle": "赔率排行",
+   "match": "比赛",
+   "stats": "数据：",
+   "teamForm": "球队状态",
+   "and": "和",
+   "homeTeam": "主队",
+   "awayTeam": "客队",
+   "rating": "评分",
+   "winLoseStreak": "连胜/连败",
+   "last6MonthsWinRate": "过去6个月胜率",
+   "recentMatchHistory": "近期比赛记录"
+  },
+  "matchCalendar": {
+   "live": "直播",
+   "dayNames": {
+    "sun": "日",
+    "mon": "一",
+    "tue": "二",
+    "wed": "三",
+    "thu": "四",
+    "fri": "五",
+    "sat": "六"
+   }
+  },
+  "tournamentMatchesList": {
+   "matches": "比赛",
+   "today": "今天",
+   "day": "天",
+   "hrs": "小时"
+  },
+  "matches": {
+   "matchesToday": "今日比赛",
+   "matchesFor": "比赛时间",
+   "sportsTeamRanking": "体育队伍排名",
+   "teamRanking": "队伍排名",
+   "promoTextTitle": "200%奖金码，最高$100",
+   "majorOngoingEvent": "主要进行中比赛"
+  },
+  "news": {
+   "title": "新闻",
+   "noNewsAvailable": "暂无新闻"
+  },
+  "profileForm": {
+   "overviewTitle": "概况",
+   "profileTitle": "个人信息",
+   "emailLabel": "邮箱",
+   "displayNameLabel": "显示名称",
+   "currentPasswordLabel": "当前密码",
+   "newPasswordLabel": "新密码",
+   "confirmPasswordLabel": "确认密码",
+   "updateButton": "更新资料"
+  },
+  "wallet": {
+   "walletBalanceTitle": "钱包余额",
+   "walletDeposit": "充值",
+   "walletWithdraw": "提现",
+   "walletTransfer": "转账"
+  },
+  "teamDetail": {
+   "recentMatchListTitle": "近期比赛列表",
+   "teamDetailTitle": "球队详情",
+   "participateMatchTitle": "参赛记录",
+   "upcomingParticipateMatchTitle": "即将参加的比赛",
+   "achievementMatchTitle": "成绩比赛",
+   "scoreMatchTitle": "比分比赛",
+   "sportTeamRankingTitle": "体育队伍排名",
+   "teamRankingTitle": "队伍排名",
+   "quarterfinals": "四分之一决赛",
+   "noMatchesAvailable": "暂无比赛",
+   "left": "剩余",
+   "ago": "前",
+   "scoresAndOutcomes": "比分和结果",
+   "date": "日期",
+   "opponent": "对手",
+   "score": "比分",
+   "odds": "赔率"
+  },
+  "breadCrumb": {
+   "teams": "队伍"
+  },
+  "teams": {
+   "ranking": "排名",
+   "teamsRanking": "队伍排名",
+   "noRankingDataAvailable": "暂无排名数据"
+  },
+  "tournaments": {
+   "articleNewsTitle": "最新消息"
+  }
+ }
+}

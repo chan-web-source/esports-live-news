@@ -1,0 +1,179 @@
+.block {
+  width: 100%;
+  background-color: var(--block-bg);
+  border: 1px var(--border-primary-color) solid;
+  box-shadow: 0 0 5px -2px var(--block-shadow);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: .28rem;
+  font-weight: bold;
+  color: #222;
+  padding: .2rem;
+  line-height: .28rem;
+  background-color: var(--block-header-bg);
+  border-left: 5px solid #E84B5B;
+  box-sizing: border-box;
+}
+
+.headingNoBorder {
+  font-size: .28rem;
+  font-weight: bold;
+  color: #222;
+  padding: .2rem;
+  line-height: .4rem;
+  background-color: var(--block-header-bg);
+  box-sizing: border-box;
+}
+
+.clickableHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.clickableHeading:hover {
+  background-color: #f0f0f0;
+}
+
+.itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0.3rem;
+  padding: 0.2rem;
+  background: white;
+  border-radius: 5px;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  cursor: pointer;
+}
+
+.oddsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.oddsValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  font-size: .22rem;
+  line-height: .2rem;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.count {
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.arrow {
+  width: 0.14rem;
+  height: 0.14rem;
+  border-left: 0.06rem solid #495057;
+  border-bottom: 0.06rem solid #495057;
+  transition: transform 0.2s ease;
+}
+
+.arrowUp {
+  transform: rotate(135deg);
+  margin-top: .07rem;
+}
+
+.arrowDown {
+  transform: rotate(-45deg);
+  margin-bottom: .07rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0.2rem;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem;
+}
+
+.collapsableContainer {
+  transition: max-height 0.3s ease-out, opacity 0.2s ease-out;
+  overflow: hidden;
+}
+
+.expanded {
+  max-height: 2000px;
+  /* Large enough to fit content */
+  opacity: 1;
+}
+
+
+.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding: 0;
+}
+
+
+.actionButton {
+  width: 100%;
+  padding: 0.24rem;
+  background-color: #e37c4c;
+  color: white;
+  border: none;
+  border-radius: 0.08rem;
+  font-size: 0.3rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.actionButton:hover {
+  background-color: #d1703f;
+}
+
+.actionButton:active {
+  background-color: #c06538;
+}
+
+.loadingIcon {
+  width: .5rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

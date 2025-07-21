@@ -1,0 +1,101 @@
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.sportsIcon {
+    width: .4rem;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    font-size: 0.32rem;
+    color: #333;
+}
+
+.contentWrapper {
+    padding: 0 0.2rem;
+}
+
+.teamCard {
+    background-color: white;
+    border-radius: 0.08rem;
+    margin: .2rem 0;
+    padding: .2rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    align-items: center;
+    box-shadow: 0 0.02rem 0.04rem rgba(0, 0, 0, 0.05);
+    border: 0.02rem solid #e0e0e0;
+}
+
+.teamLogo img {
+    width: .8rem;
+    margin-right: .1rem;
+}
+
+.teamInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.08rem;
+    border-right: 0.02rem solid #e0e0e0;
+}
+
+.teamName {
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #0d2b45;
+    margin: 0;
+}
+
+.countryInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.12rem;
+}
+
+.countryFlagImg {
+    width: 0.4rem;
+    height: 0.28rem;
+    object-fit: cover;
+}
+
+.countryFlag {
+    font-size: 0.28rem;
+    color: #333;
+}
+
+.statItem {
+    text-align: center;
+    padding: 0 0.48rem;
+}
+
+.statValue {
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.08rem;
+}
+
+.statLabel {
+    font-size: 0.24rem;
+    color: #666;
+    white-space: nowrap;
+}
+
+.matchTimeline {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .2rem .2rem;
+    color: #333;
+    font-size: 0.24rem;
+}
+
+.timelineItem {
+    line-height: 1.4;
+}
+
+.timelineText {
+    color: #333;
+}

@@ -1,0 +1,42 @@
+.breadcrumb {
+  margin: 0 0 .3rem;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 0;
+  line-height: 20px;
+}
+
+.link {
+  color: rgba(33, 33, 33, 0.8);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: rgba(33, 33, 33, 1);
+  text-decoration: underline;
+}
+
+.text {
+  color: #666666;
+}
+
+.active {
+  color: #333333;
+  font-weight: 500;
+}
+
+.separator {
+  margin: 0 0.2rem; /* 10px with 50px base */
+  color: #999999;
+}

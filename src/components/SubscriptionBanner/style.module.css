@@ -1,0 +1,64 @@
+/* BettingBanner.module.css */
+.container {
+  background-color: #1e2734;
+  border-radius: 0.1rem;
+  padding: 0.4rem;
+  width: 100%;
+  color: white;
+  box-shadow: 0 0.08rem 0.12rem rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.heading {
+  font-size: 0.48rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #ffc700;
+}
+
+.subheading {
+  font-size: .32rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.accessButton {
+  background-color: #fae48d;
+  color: #1e2734;
+  border: none;
+  border-radius: .12rem;
+  padding: 0.3rem;
+  font-size: .32rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  transition: background-color 0.2s;
+  margin-top: 0.1rem;
+}
+
+.accessButton:hover {
+  background-color: #f0c94d;
+}
+
+.icon {
+  width: 0.5rem;
+  height: 0.5rem;
+}

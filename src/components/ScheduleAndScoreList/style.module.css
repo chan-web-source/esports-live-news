@@ -1,0 +1,167 @@
+.matchesList {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchCard {
+  padding: 0.3rem 0.2rem;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  background-color: white;
+  margin-bottom: 0.2rem;
+}
+
+.matchCard:hover {
+  border-color: rgba(20, 100, 190, 0.25);
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+}
+
+.matchHeader {
+  display: flex;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid rgba(235, 235, 235, 1.00);
+}
+
+.timeDate {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.time {
+  font-size: 0.28rem;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.countryFlag {
+  width: .4rem;
+}
+
+.matchContent {
+  display: flex;
+  padding-top: 0.15rem;
+  align-items: center;
+  gap: .4rem;
+}
+
+.arrowIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: .7rem;
+  height: .7rem;
+  cursor: pointer;
+  border-radius: 0.1rem;
+  border: 1px solid rgba(235, 235, 235, 1.00);
+}
+
+.arrowIcon:hover {
+  background-color: white;
+  border: 1px rgba(20, 100, 190, 0.25) solid;
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+  color: rgb(20, 100, 190);
+}
+
+.teamsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+
+.teamRow {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.teamName {
+  font-size: 0.31rem;
+  font-weight: 500;
+}
+
+.oddsContainer,
+.scoreOddsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.scoreOddsContainer {
+  border-left: 1px solid lightgrey;
+
+}
+
+.oddsRow {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.bookmaker {
+  font-size: 0.22rem;
+  color: #666;
+  text-align: right;
+  width: 1.2rem;
+}
+
+.oddsValue {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.06rem 0.16rem;
+  border-radius: 0.08rem;
+  font-weight: 500;
+  font-size: 0.22rem;
+  display: inline-block;
+  text-align: center;
+  min-width: 0.8rem;
+}
+
+.scoreOddsValue {
+  color: rgb(0, 0, 0);
+  padding: 0.06rem 0.16rem;
+  border-radius: 0.08rem;
+  font-weight: 500;
+  font-size: 0.3rem;
+  display: inline-block;
+  text-align: center;
+  min-width: 0.8rem;
+}
+
+.highlight {
+  color: #be370a;
+}
+
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 0.08rem;
+  padding: 0.4rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statValue {
+  font-size: 0.35rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.statLabel {
+  font-size: 0.22rem;
+  color: #666;
+}

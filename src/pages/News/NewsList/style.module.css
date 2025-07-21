@@ -1,0 +1,201 @@
+.tournamentList {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchesList {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: .2rem 0;
+}
+
+.matchCard {
+  margin: 0 .2rem;
+  padding: 0.3rem 0.4rem;
+  background: white;
+  border-radius: 5px;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  cursor: pointer;
+}
+
+.matchCard:hover {
+  border: 1px rgba(20, 100, 190, 0.25) solid;
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+}
+
+.timeRow {
+  border-bottom: 0.01rem solid #eaeaea;
+  display: flex;
+  gap: .3rem;
+  align-items: center;
+  padding-bottom: .2rem;
+  margin-bottom: .2rem;
+}
+
+.matchTime {
+  font-size: .25rem;
+  font-weight: bold;
+}
+
+.matchTimeDesc {
+  font-size: .22rem;
+  color: rgb(66, 66, 66);
+}
+
+.tips {
+  padding: 0 5px;
+  border-radius: 7px;
+  background-color: #f8f8f8;
+  color: rgba(33, 33, 33, 1.00);
+  border: 1px #dcdcdc solid;
+  line-height: 18px;
+}
+
+.matchRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: .3rem;
+}
+
+.teamLogo {
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-right: 0.2rem;
+  object-fit: contain;
+}
+
+.teamName {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 6rem;
+}
+
+.oddsContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 0.3rem;
+  min-width: 2.8rem;
+  justify-content: flex-end;
+  gap: .2rem;
+}
+
+.oddsProvider {
+  width: 55px;
+  font-size: 0.22rem;
+  color: #666;
+}
+
+.oddsValue {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.06rem 0.16rem;
+  border-radius: 0.08rem;
+  font-weight: 500;
+  font-size: 0.22rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 0.36rem;
+  text-align: center;
+}
+
+.tournamentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.2rem;
+  border-top: 0.01rem solid #eaeaea;
+  font-size: 0.24rem;
+  color: #666;
+}
+
+.itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem;
+  align-items: center;
+  padding: 0.2rem;
+  height: .8rem;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  background-color: white;
+  cursor: pointer;
+}
+
+.tournamentName {
+  display: flex;
+  align-items: center;
+}
+
+.tournamentName::before {
+  content: "";
+  display: inline-block;
+  width: 0.28rem;
+  height: 0.28rem;
+  background-image: url('/img/football-fill.svg');
+  margin-right: 0.16rem;
+}
+
+.newsItem {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+
+.newsTime {
+  font-size: 0.25rem;
+  color: #444;
+  text-align: center;
+  padding: 0 .3rem;
+}
+
+.newsTitle {
+  flex: 1;
+  font-size: 0.32rem;
+  font-weight: 500;
+  color: #000;
+  
+}
+
+.sportIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sportIcon img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.eventItem {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0;
+  background: white;
+  border-radius: 5px;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  cursor: pointer;
+}
+
+.eventItem:hover {
+  border: 1px rgba(20, 100, 190, 0.25) solid;
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+}

@@ -1,0 +1,81 @@
+.statsContainer {
+    background-color: #ffffff;
+    border-radius: 0.08rem;
+    padding: 0.4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.header {
+    font-size: 0.3rem;
+}
+
+.title {
+    font-size: 0.3rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #4b5563;
+    font-size: 0.28rem;
+}
+
+.link {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #1e40af;
+}
+
+
+.statsList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+
+}
+
+.statItem {
+    color: #374151;
+    font-size: 0.28rem;
+    gap: 0.1rem;
+}
+
+.scoresSection {
+    margin: 0.5rem 0;
+    gap: 0.1rem;
+    padding: 0.1rem;
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.tableHeaderCell,
+.tableCell {
+    border: 1px solid #e5e7eb;
+    padding: 0.2rem;
+    font-size: 0.28rem;
+    text-align: left;
+}
+
+.tableHeaderCell {
+    font-weight: 500;
+    color: #111827;
+}
+
+.tableRow {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tableCell {
+    color: #374151;
+}

@@ -1,0 +1,140 @@
+.container {
+  width: calc(66.66% - 10px);
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.16rem;
+  box-shadow: 0 0.04rem 0.12rem rgba(0, 0, 0, 0.05);
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.header {
+  padding: 0.3rem 0.4rem;
+  font-weight: 600;
+  font-size: 0.32rem;
+  border-bottom: 0.02rem solid #f0f0f0;
+  background-color: #f8f8f8;
+}
+
+.overview {
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.avatarContainer {
+  margin-right: 0.4rem;
+}
+
+.avatar {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #f0c14b;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.userInfo h2 {
+  margin: 0;
+  font-size: 0.36rem;
+  font-weight: 500;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 0.1rem;
+  font-size: 0.26rem;
+  color: #666;
+}
+
+.flag {
+  margin-right: 0.1rem;
+}
+
+.form {
+  padding: 0.4rem;
+}
+
+.formGroup {
+  margin-bottom: 0.5rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+  font-size: 0.28rem;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.lockIcon {
+  position: absolute;
+  left: 0.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 0.24rem;
+}
+
+.input, .lockedInput {
+  width: 100%;
+  padding: 0.2rem 0.3rem;
+  border: 0.02rem solid #ddd;
+  border-radius: 0.08rem;
+  font-size: 0.28rem;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.lockedInput {
+  background-color: #eee;
+  color: #777;
+  padding-left: 0.6rem;
+  cursor: not-allowed;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 0.06rem rgba(74, 144, 226, 0.2);
+}
+
+.inputError {
+  border-color: #e74c3c;
+}
+
+.errorText {
+  color: #e74c3c;
+  font-size: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 0.2rem;
+  }
+  
+  .avatar {
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 0.6rem;
+  }
+  
+  .userInfo h2 {
+    font-size: 0.32rem;
+  }
+}

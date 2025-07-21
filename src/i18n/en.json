@@ -1,0 +1,348 @@
+{
+ "translation": {
+  "common": {
+   "home": "Home",
+   "teams": "Teams",
+   "matches": "Matches",
+   "tournaments": "Tournaments",
+   "news": "News",
+   "loading": "Loading...",
+   "latestNews": "Latest News",
+   "promoText": "200% promo code bonus up to $100",
+   "upcoming": "Upcoming",
+   "ongoing": "Ongoing",
+   "finished": "Finished",
+   "allMatches": "All Matches",
+   "win": "Win",
+   "lose": "Lose",
+   "draw": "Draw",
+   "team": "Team",
+   "maps": "Maps",
+   "overview": "OVERVIEW",
+   "tips": "tips",
+   "in": "In",
+   "days": "days",
+   "d": "d"
+  },
+  "header": {
+   "predictions": "Predictions",
+   "football": "Football",
+   "basketball": "Basketball",
+   "esports": "Esports",
+   "login": "Login",
+   "register": "Register",
+   "betting": "Betting",
+   "tournaments": "Tournaments"
+  },
+  "footer": {
+   "timezone": "Asia/Singapore",
+   "launchNowAs": "Launch now as",
+   "getItOn": "Get it on",
+   "getItFrom": "Get it from",
+   "gamblingTherapy": "GamblingTherapy",
+   "beGambleAware": "BeGambleAware",
+   "gamCare": "GamCare",
+   "copyright": "2019 - 2025 © 888 Sports"
+  },
+  "bottomAds": {
+   "promo": "Welcome bonus up to ",
+   "button": "Get Started"
+  },
+  "mainTournamentsList": {
+   "finals": "Finals",
+   "left": "Left",
+   "noOngoingStage": "No ongoing stage",
+   "noTournamentsAvailable": "No tournaments available",
+   "noMatchesAvailable": "No matches available",
+   "streak": "streak",
+   "t30dWinrate": "30d Winrate",
+   "winrate": "Winrate",
+   "lastMatch": "Last match",
+   "dAgo": "days ago",
+   "nearestMatch": "Nearest match",
+   "NA": "N/A",
+   "d": "day",
+   "division": "Division",
+   "upcomingMatchListTitle": "Upcoming Match List",
+   "finishedMatchListTitle": "Finished Match List"
+  },
+  "promoCodeBlock": {
+   "promo": "Promo Code",
+   "promoText": "Zero Deposit, $5 Free Bet!",
+   "button": "Get Started",
+   "promoCodeCopied": "Promo code copied to clipboard",
+   "whoWillWin": "Who will win?"
+  },
+  "matchEvents": {
+   "ONGOING": "Ongoing",
+   "UPCOMING": "Upcoming",
+   "FINISHED": "Finished"
+  },
+  "leftPanel": {
+   "hello": "Hello",
+   "helpAndSettings": "Help & Settings",
+   "language": {
+    "title": "Language",
+    "options": {
+     "english": "English",
+     "chinese": "中文"
+    }
+   },
+   "settings": {
+    "helpAndSettings": "Help & Settings",
+    "language": "Language",
+    "odds": "Odds",
+    "information": "Information"
+   },
+   "odds": {
+    "title": "Odds",
+    "options": {
+     "decimal": "Decimal",
+     "fractional": "Fractional",
+     "american": "American"
+    }
+   },
+   "information": {
+    "title": "Information",
+    "options": {
+     "aboutUs": "About Us",
+     "termsOfService": "Terms of Service",
+     "privacyPolicy": "Privacy Policy",
+     "contactSupport": "Contact Support"
+    }
+   }
+  },
+  "constants": {
+   "leftPanelLoginSubItems": {
+    "login": "Login",
+    "register": "Sign up",
+    "accountRecovery": "Account Recovery"
+   },
+   "leftPanelAccountSubItems": {
+    "profile": "Profile",
+    "logout": "Logout"
+   },
+   "gameSubItems": {
+    "predictions": "Predictions",
+    "liveScore": "Live Score",
+    "matches": "Matches",
+    "tournaments": "Tournaments",
+    "teams": "Teams"
+   },
+   "gameMenuItems": {
+    "football": "Football",
+    "basketball": "Basketball",
+    "esports": "Esports",
+    "csgo": "CS2 (CS:GO)",
+    "lol": "LoL",
+    "dota2": "Dota 2",
+    "valorant": "Valorant",
+    "rainbow6": "Rainbow 6",
+    "callofduty": "Call of Duty",
+    "rocketleague": "Rocket League",
+    "overwatch": "Overwatch",
+    "arenaofvalor": "Arena of Valor",
+    "pubg": "PUBG",
+    "wildrift": "Wild Rift"
+   },
+   "informationMenuItems": {
+    "contacts": "Contacts",
+    "about": "About",
+    "subscription-policy": "Subscription Policy",
+    "jobs": "Jobs",
+    "terms-and-conditions": "Terms of Service",
+    "privacy-policy": "Privacy Policy",
+    "cookie-policy": "Cookies",
+    "responsible-gaming": "Responsible Gaming"
+   },
+   "languageOptions": {
+    "en": "English",
+    "zh": "中文"
+   },
+   "oddsOptions": {
+    "decimal": "Decimal",
+    "fractional": "Fractional",
+    "american": "American",
+    "hk": "Hong Kong"
+   }
+  },
+  "subscriptionBanner": {
+   "heading": {
+    "prefix": "INCREASE YOUR",
+    "highlight": "WINNINGS",
+    "suffix": "IN BETS"
+   },
+   "subheading": {
+    "prefix": "Gain access to the most profitable bets by using our analysis of over",
+    "monthlyPredictionsText": "monthly predictions from",
+    "sources": "1000+",
+    "sourcesText": "sources"
+   },
+   "button": {
+    "text": "Get access"
+   }
+  },
+  "loginForm": {
+   "welcomeTitle": "Welcome",
+   "loginFailed": "Login failed. Please check your credentials.",
+   "weixinLogin": "Login with WeChat",
+   "qqLogin": "Login with QQ",
+   "or": "or",
+   "email": "Email",
+   "password": "Password",
+   "signIn": "Sign In",
+   "forgotPassword": "I forgot my password or login",
+   "noAccount": "Don't have an account?",
+   "signUp": "Sign Up"
+  },
+  "registerForm": {
+   "welcome": "Welcome",
+   "socialLogin": {
+    "wechat": "WeChat",
+    "qq": "QQ"
+   },
+   "divider": "or",
+   "form": {
+    "email": {
+     "label": "Email",
+     "placeholder": "Enter your email"
+    },
+    "password": {
+     "label": "Password",
+     "placeholder": "Enter your password"
+    }
+   },
+   "terms": {
+    "agreement": "By signing up, you agree to our",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy"
+   },
+   "ageConfirmation": "I confirm that I am over 18 years old",
+   "submitButton": "Next",
+   "footer": {
+    "prompt": "Already have an account?",
+    "login": "Log in"
+   },
+   "errors": {
+    "termsNotAccepted": "Please accept the terms and conditions",
+    "emailAlreadyRegistered": "This email is already registered",
+    "registrationFailed": "Registration failed. Please try again later."
+   }
+  },
+  "finalDetailScore": {
+   "maps": "Maps"
+  },
+  "recentMatchList": {
+   "homeTeam": "Home team",
+   "awayTeam": "Away team"
+  },
+  "home": {
+   "headerTitle": "Global Sports Event Live Center, All in One Place",
+   "sportsNewsTitle": "Sports News Website",
+   "liveMatchesTitle": "Live Matches",
+   "tomorrowMatchesTitle": "Tomorrow Matches",
+   "mainTournamentsTitle": "Main Tournaments",
+   "mainMatchesTitle": "Main Matches"
+  },
+  "matchDetail": {
+   "overview": "Overview",
+   "title": "Final Matchs",
+   "subtitle": "Final Match Details",
+   "description": "Final Match Details",
+   "button": "Final Match Details",
+   "liveUpdateListTitle": "Match Live Updates",
+   "finalMatchScoreTitle": "Final Match Score",
+   "tournamentStandingTitle": "Tournament Standing",
+   "recentMatchListTitle": "Recent Match Details",
+   "upcomingMatchListTitle": "Upcoming Match Details",
+   "oddsRankingTitle": "Odds Ranking",
+   "match": "Match",
+   "stats": "stats:",
+   "teamForm": "Team form of",
+   "and": "and",
+   "homeTeam": "Home team",
+   "awayTeam": "Away team",
+   "rating": "Rating",
+   "winLoseStreak": "Winning/Losing Streak",
+   "last6MonthsWinRate": "Last 6-month win rate",
+   "recentMatchHistory": "Recent match history"
+  },
+  "matchCalendar": {
+   "live": "LIVE",
+   "dayNames": {
+    "sun": "sun",
+    "mon": "mon",
+    "tue": "tue",
+    "wed": "wed",
+    "thu": "thu",
+    "fri": "fri",
+    "sat": "sat"
+   }
+  },
+  "tournamentMatchesList": {
+   "matches": "matches",
+   "today": "today",
+   "day": "day",
+   "hrs": "hrs"
+  },
+  "matches": {
+   "matchesToday": "Matches Today",
+   "matchesFor": "Matches For",
+   "sportsTeamRanking": "Sports Team Ranking",
+   "teamRanking": "Team Ranking",
+   "promoTextTitle": "200% promo code bonus up to $100",
+   "majorOngoingEvent": "Major Ongoing Events"
+  },
+  "news": {
+   "title": "News",
+   "noNewsAvailable": "No news available"
+  },
+  "profileForm": {
+   "overviewTitle": "Overview",
+   "profileTitle": "Profile",
+   "emailLabel": "Email",
+   "displayNameLabel": "Display Name",
+   "currentPasswordLabel": "Current Password",
+   "newPasswordLabel": "New Password",
+   "confirmPasswordLabel": "Confirm Password",
+   "updateButton": "Update Profile"
+  },
+  "wallet": {
+   "walletBalanceTitle": "Wallet Balance",
+   "walletDeposit": "Deposit",
+   "walletWithdraw": "Withdraw",
+   "walletTransfer": "Transfer"
+  },
+  "teamDetail": {
+   "recentMatchListTitle": "Recent Match List",
+   "teamDetailTitle": "Team Detail",
+   "participateMatchTitle": "Participate Match",
+   "upcomingParticipateMatchTitle": "Upcoming Participate Match",
+   "achievementMatchTitle": "Achievement Match",
+   "scoreMatchTitle": "Score Match",
+   "sportTeamRankingTitle": "Sports Team Ranking",
+   "teamRankingTitle": "Team Ranking",
+   "quarterfinals": "Quarterfinals",
+   "noMatchesAvailable": "No matches available",
+   "left": "Left",
+   "ago": "ago",
+   "scoresAndOutcomes": "Scores and Outcomes",
+   "date": "Date",
+   "opponent": "Opponent",
+   "score": "Score",
+   "odds": "Odds"
+  },
+  "breadCrumb": {
+   "teams": "Teams"
+  },
+  "teams": {
+   "ranking": "Ranking",
+   "teamsRanking": "Teams Ranking",
+   "noRankingDataAvailable": "No ranking data available"
+  },
+  "tournaments": {
+   "articleNewsTitle": "Latest News"
+  }
+ }
+}

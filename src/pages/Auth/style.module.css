@@ -1,0 +1,197 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 0.4rem; /* 20px */
+  min-height: calc(100vh - 115px); /* Make it take full viewport height minus header and footer */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+.loginCard {
+  background-color: #ffffff;
+  border-radius: 0.08rem; /* 4px */
+  box-shadow: 0 0.04rem 0.16rem rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 8rem; /* 400px */
+  padding: 0.8rem; /* 40px */
+  box-sizing: border-box;
+}
+
+.welcomeTitle {
+  font-size: 0.44rem; /* 22px */
+  font-weight: 700;
+  margin: 0 0 0.6rem; /* 30px */
+  text-align: center;
+  color: #333;
+}
+
+.errorMessage {
+  background-color: #fde8e8;
+  color: #e53e3e;
+  padding: 0.24rem;
+  border-radius: 0.08rem;
+  font-size: 0.28rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+  border: 0.02rem solid #feb2b2;
+}
+
+.errorLink {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.socialButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem; /* 14px */
+  margin-bottom: 0.6rem; /* 30px */
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.24rem 0; /* 12px */
+  border-radius: 0.08rem; /* 4px */
+  border: 0.02rem solid #ddd; /* 1px */
+  background-color: #f9f9f9;
+  font-size: 0.28rem; /* 14px */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.socialButton:hover {
+  background-color: #f0f0f0;
+}
+
+.socialIcon {
+  margin-right: 0.2rem; /* 10px */
+  font-size: 0.5rem; /* 16px */
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 0.6rem 0; /* 30px */
+}
+
+.dividerLine {
+  flex: 1;
+  height: 0.02rem; /* 1px */
+  background-color: #eee;
+}
+
+.dividerText {
+  color: #999;
+  padding: 0 0.2rem; /* 10px */
+  font-size: 0.28rem; /* 14px */
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem; /* 20px */
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.16rem; /* 8px */
+}
+
+.formLabel {
+  font-size: 0.28rem; /* 14px */
+  font-weight: 500;
+  color: #333;
+}
+
+.formInput {
+  padding: 0.24rem; /* 12px */
+  border: 0.02rem solid #ddd; /* 1px */
+  border-radius: 0.08rem; /* 4px */
+  font-size: 0.28rem; /* 14px */
+  background-color: #f9f9f9;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #ff6a3d;
+  box-shadow: 0 0 0 0.04rem rgba(255, 106, 61, 0.2); /* 2px */
+}
+
+.checkboxItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.checkboxItem input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.checkboxItem label {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.checkboxItem a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.checkboxItem a:hover {
+  text-decoration: underline;
+}
+
+.submitButton {
+  margin-top: 0.2rem; /* 10px */
+  padding: 0.24rem; /* 12px */
+  background-color: #ff6a3d;
+  color: white;
+  border: none;
+  border-radius: 0.08rem; /* 4px */
+  font-size: 0.32rem; /* 16px */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #e85c2e;
+}
+
+.formFooter {
+  margin-top: 0.6rem; /* 30px */
+  text-align: center;
+}
+
+.forgotLink {
+  display: block;
+  color: #666;
+  font-size: 0.28rem; /* 14px */
+  text-decoration: none;
+  margin-bottom: 0.4rem; /* 20px */
+}
+
+.forgotLink:hover {
+  color: #ff6a3d;
+  text-decoration: underline;
+}
+
+.signupPrompt {
+  font-size: 0.28rem; /* 14px */
+  color: #666;
+}
+
+.signupLink {
+  color: #ff6a3d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signupLink:hover {
+  text-decoration: underline;
+}

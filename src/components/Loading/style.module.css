@@ -1,0 +1,53 @@
+.loadingItem {
+ display: flex;
+ align-items: center;
+ padding: .3rem 0;
+ background: white;
+ border-radius: 5px;
+ border: 1px rgba(235, 235, 235, 1.00) solid;
+}
+
+.dateInfo {
+ flex: 0 0 15%;
+ display: flex;
+ flex-direction: column;
+ gap: .1rem;
+ justify-content: start;
+ align-items: center;
+}
+
+.dateRange {
+ font-size: .25rem;
+ font-weight: 600;
+ color: #495057;
+}
+
+.championContainer {
+ width: 50%;
+ padding: 0 0.1rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.eventTitle {
+ font-size: .3rem;
+ font-weight: bold;
+ color: #212529;
+ flex-grow: 1;
+}
+
+.loadingIcon {
+ width: .5rem;
+ animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+ from {
+  transform: rotate(0deg);
+ }
+
+ to {
+  transform: rotate(360deg);
+ }
+}

@@ -1,0 +1,231 @@
+.header {
+  position: fixed;
+  background-color: var(--header-bg);
+  color: rgba(240, 255, 255, 1.00);
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 55px;
+  box-shadow: 0 5px 5px -2px var(--block-shadow);
+  z-index: 99;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1025px) and (max-width:1280px) {
+  .container {
+    width: calc(100vw - 80px);
+    margin: 0 auto
+  }
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .1rem;
+}
+
+.sidebarButton {
+  float: left;
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  width: 33px;
+  height: 33px;
+  border: 1px solid;
+  border-color: var(--header-bg);
+  border-radius: 5px;
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('/img/burger.svg');
+  transition: transform 0.3s ease;
+}
+
+.sidebarButton:hover {
+  border-color: inherit;
+}
+
+.leftPanelWrapper {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  z-index: 100;
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideOut {
+  animation: slideOut 0.3s ease-out forwards;
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logo {
+  height: 55px;
+}
+
+.gamesNavShort {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.gamesNavItem {
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.games {
+  margin-left: 30px;
+}
+
+.game {
+  align-items: center;
+  line-height: 55px;
+  padding: 0 10px 0 20px;
+  width: 175px;
+  background-color: var(--header-menu-bg);
+  border-top: 1px rgba(245, 175, 175, 1.00) solid;
+  cursor: pointer;
+}
+
+.game:hover {
+  background-color: var(--header-menu-active-bg);
+}
+
+.gameName {
+  margin-left: 5px;
+}
+
+.gameIcon {
+  margin-top: -3px;
+}
+
+.toggle {
+  border-top: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  border-color: white !important;
+  border-width: 1px;
+  margin: -3px 10px 0 auto;
+}
+
+.toggleContent {
+  display: block;
+  position: absolute;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.toggleContent.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mainNav {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.mainNavItem {
+  padding-bottom: 5px;
+  line-height: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  box-sizing: content-box;
+  margin-top: 2px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.mainNavItem:hover, 
+.mainNavItem.active,
+.accountLink  {
+  border-bottom: 2px var(--header-menu-bg) solid;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .2rem;
+}
+
+.signin {
+  line-height: .48rem;
+  font-size: .24rem;
+  width: 1rem;
+  text-align: center;
+  padding: 0 10px;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  color: #666;
+  transition: .25s;
+  transform-style: preserve-3d;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.signin:hover {
+  background-color: var(--button-primary-color);
+  border-color: var(--button-primary-color);
+  color: #fff;
+}
+
+.signup {
+  background-color: var(--button-primary-color);
+  color: #fff;
+  border: 1px solid var(--button-primary-color);
+}
+
+.signup:hover {
+  background-color: var(--button-primary-color-active);
+}
+
+.betting {
+  padding: 5.5px 10px;
+  width: 25px;
+  background-color: rgba(0, 85, 155, 1.00);
+  border-radius: 5px;
+  box-sizing: content-box;
+}

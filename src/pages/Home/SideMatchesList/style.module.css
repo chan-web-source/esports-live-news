@@ -1,0 +1,152 @@
+/* Base styling with rem units (base font 50px, font-size 14px) */
+.container {
+  width: 100%;
+  max-width: 28rem;
+  /* 1400px / 50px = 28rem */
+  background-color: #f5f5f5;
+  box-shadow: 0 0.04rem 0.16rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.4rem;
+  cursor: pointer;
+  border-bottom: 0.02rem solid #eaeaea;
+}
+
+.title {
+  font-size: 0.32rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.arrow {
+  font-size: 0.32rem;
+  transition: transform 0.3s ease;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}
+
+.arrowDown {
+  transform: rotate(0deg);
+}
+
+.tournamentGroup {
+  margin-bottom: 0.2rem;
+  /* 10px / 50px = 0.2rem */
+}
+
+.matchCard {
+  padding: 0.3rem 0.2rem;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+}
+
+.matchCard:hover {
+  border-color: rgba(20, 100, 190, 0.25);
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+}
+
+.matchRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.2rem;
+  /* 10px / 50px = 0.2rem */
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: .3rem;
+  max-width: 2.6rem;
+}
+
+.teamLogo {
+  width: 0.48rem;
+  /* 24px / 50px = 0.48rem */
+  height: 0.48rem;
+  /* 24px / 50px = 0.48rem */
+  margin-right: 0.2rem;
+  /* 10px / 50px = 0.2rem */
+  object-fit: contain;
+}
+
+.teamName {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 6rem;
+  /* 300px / 50px = 6rem */
+}
+
+.oddsContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 0.3rem;
+  /* 20px / 50px = 0.4rem */
+  min-width: 2.8rem;
+  /* 140px / 50px = 2.8rem */
+  justify-content: flex-end;
+  gap: .2rem;
+}
+
+.oddsProvider {
+  width: 55px;
+  font-size: 0.22rem;
+  /* 12px / 50px = 0.24rem */
+  color: #666;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 0.36rem;
+  /* 18px / 50px = 0.36rem */
+  text-align: center;
+}
+
+.tournamentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.2rem;
+  /* 10px / 50px = 0.2rem */
+  border-top: 0.01rem solid #eaeaea;
+  /* 0.5px / 50px = 0.01rem */
+  font-size: 0.24rem;
+  /* 12px / 50px = 0.24rem */
+  color: #666;
+}
+
+.tournamentName {
+  display: flex;
+  align-items: center;
+}
+
+.tournamentName::before {
+  content: "";
+  display: inline-block;
+  width: 0.28rem;
+  /* 14px / 50px = 0.28rem */
+  height: 0.28rem;
+  /* 14px / 50px = 0.28rem */
+  background-image: url('/img/football-fill.svg');
+  margin-right: 0.16rem;
+  /* 8px / 50px = 0.16rem */
+}
+
+.matchTime {
+  font-weight: 500;
+}

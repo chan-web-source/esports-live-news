@@ -1,0 +1,16 @@
+.title {
+  margin-bottom: .2rem;
+}
+
+.content {
+  font-size: 0.3rem;
+  font-weight: 400;
+  margin: 0;
+  color: #444;
+  gap: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.content * {
+  all: revert;
+}

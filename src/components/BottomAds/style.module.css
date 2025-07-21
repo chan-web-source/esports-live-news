@@ -1,0 +1,67 @@
+.banner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  z-index: 10;
+  background-image: url('/img/bookmakers-bg.jpg');
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url('/img/gembet-white.svg');
+  background-repeat: no-repeat;
+  background-size: 150px;
+  padding-left: 150px;
+  background-position: left center;
+}
+
+.outboundBet {
+  cursor: pointer;
+}
+
+.promo {
+  font-size: 16px;
+  color: white;
+  flex: 1;
+  text-align: center;
+}
+
+.highlight {
+  color: rgba(2, 200, 89, 1.0);
+}
+
+.noCode {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(2, 200, 89);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: 400px;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: rgba(2, 200, 89, 0.8);
+}

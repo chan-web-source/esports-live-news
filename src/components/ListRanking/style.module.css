@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  margin: .2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: .1rem .2rem;
+  background: white;
+  border-radius: 5px;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  cursor: pointer;
+}
+
+.row:hover {
+  border: 1px rgba(20, 100, 190, 0.25) solid;
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+}
+
+.teamLogo {
+  width: 15px;
+  margin-right: 0.2rem;
+}
+
+.teamName {
+  font-size: .31rem;
+  font-weight: 600;
+  line-height: .5rem;
+}

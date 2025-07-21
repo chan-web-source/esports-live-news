@@ -1,0 +1,88 @@
+.settings {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin: 0 0 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.settingItem {
+    cursor: pointer;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.settingItem:hover {
+    background-color: #f5f5f5;
+}
+
+.settingHeader {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+}
+
+.settingIcon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingIcon img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0);
+    opacity: 0.7;
+}
+
+.settingLabel {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.arrow {
+    font-size: 12px;
+    color: #666;
+    transition: transform 0.2s ease;
+}
+
+.expanded {
+    transform: rotate(180deg);
+}
+
+.settingContent {
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 6px 6px;
+    margin-top: -4px;
+}
+
+.option {
+    padding: 10px 12px;
+    font-size: 15px;
+    color: #444;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.option:hover {
+    background-color: #eee;
+}

@@ -1,0 +1,108 @@
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 0.2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.matchContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+
+    background-color: white;
+    border-radius: 0.08rem;
+    margin: .2rem;
+    padding: .2rem;
+    grid-template-columns: 1fr auto auto auto;
+    align-items: center;
+    box-shadow: 0 0.02rem 0.04rem rgba(0, 0, 0, 0.05);
+    border: 0.02rem solid #e0e0e0;
+}
+
+.matchInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.3rem;
+    font-size: 0.24rem;
+    line-height: .5rem;
+    color: #666;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.matchTime {
+    font-weight: bold;
+    font-size: .26rem;
+    margin-right: .3rem;
+}
+
+.teamsContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.teamSection {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.teamLogo {
+    width: 0.8rem;
+    height: 0.8rem;
+    object-fit: contain;
+}
+
+.teamInfo {
+    min-width: 3rem;
+}
+
+.teamName {
+    font-size: 0.3rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.countryName {
+    font-size: 0.24rem;
+    color: #666;
+}
+
+.score {
+    font-size: 0.3rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.separator {
+    font-size: 0.3rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.matchBottomDetails {
+    font-size: 0.26rem;
+    color: #666;
+    text-align: center;
+    margin: .2rem;
+}
+
+.overviewButton {
+    background-color: white;
+    color: #156bc4;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.overviewButton:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,105 @@
+@import 'react-calendar/dist/Calendar.css';
+
+/* Variables */
+:root {
+  --main-font-size: .32rem;
+  --header-bg: rgba(55, 70, 80, 1.00);
+  --header-menu-bg: rgba(190, 55, 10, 1.00);
+  --header-menu-active-bg: rgba(170, 60, 20, 1.00);
+  --block-bg: rgba(245, 245, 245, 1.00);
+  --block-shadow: rgba(33, 33, 33, 0.35);
+  --block-header-bg: rgba(235, 235, 235, 1.00);
+  --border-primary-color: rgba(225, 225, 225, 1.00);
+  --button-primary-color: rgba(190, 55, 10, 1.00);
+  --button-primary-color-active: rgba(170, 60, 20, 1.00);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 50px;
+}
+
+body {
+  font-size: var(--main-font-size);
+  font-family: "Roboto", sans-serif;
+}
+
+iframe {
+  border: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block
+}
+
+ol,
+ul,
+li {
+  list-style: none
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+
+table {
+  empty-cells: show;
+  border-collapse: collapse;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15px 10px;
+}
+
+/* Left-right structure, TODO: modify this for responsive */
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: .6rem;
+}
+
+.mainContent {
+  width: calc(66.66% - .4rem);
+}
+
+.sideContent {
+  width: calc(33.33% - .4rem);
+}

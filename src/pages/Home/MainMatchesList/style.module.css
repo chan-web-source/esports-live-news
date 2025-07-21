@@ -1,0 +1,122 @@
+.matchCard {
+  padding: 0.3rem 0.2rem;
+  border: 1px rgba(235, 235, 235, 1.00) solid;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  background-color: white;
+  cursor: pointer;
+}
+
+.matchCard:hover {
+  border-color: rgba(20, 100, 190, 0.25);
+  box-shadow: 0 0 5px -2px rgba(20, 100, 190, 0.25);
+}
+
+.matchInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.15rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid rgba(235, 235, 235, 1.00);
+}
+
+.timeInfo {
+  display: flex;
+  align-items: center;
+  min-width: 1.8rem;
+}
+
+.matchTime {
+  font-size: .24rem;
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+
+.timeRemaining {
+  color: #666;
+  font-size: 0.22rem;
+}
+
+.tipsBox {
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 7px;
+  background-color: #f8f8f8;
+  color: rgba(33, 33, 33, 1.00);
+  text-decoration: none;
+  border: 1px #dcdcdc solid;
+  margin-left: .5rem;
+  font-size: .24rem;
+  line-height: .36rem;
+}
+
+.tipsCount {
+  font-weight: 600;
+}
+
+.tournament {
+  color: #333;
+  font-size: 0.26rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.teamsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+}
+
+.teamLogo {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin-right: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImg {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.teamName {
+  font-weight: 600;
+}
+
+.vsText {
+  font-weight: normal;
+  color: #666;
+  font-size: 0.26rem;
+  margin-top: 0.04rem;
+}
+
+.oddsBox {
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.08rem;
+  padding: 0 .1rem;
+  font-weight: 600;
+  font-size: .36rem;
+  line-height: .96rem;
+  min-width: 0.8rem;
+  text-align: center;
+  box-shadow: 0 0.02rem 0.06rem rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(235, 235, 235, 1.00);
+  cursor: pointer;
+}
+
+.oddsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: auto;
+}

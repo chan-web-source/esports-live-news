@@ -1,0 +1,118 @@
+.container {
+  padding: .2rem;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0.04rem 0.16rem rgba(0, 0, 0, 0.2);
+  background-image: url('/img/football-side-offer-3.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .3rem;
+}
+
+.bookmaker {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookmakerLogo {
+  height: 15px;
+  line-height: 15px;
+  padding: 30px 10px 5px;
+  font-size: .24rem;
+  text-align: right;
+  color: white;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 6px;
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: top 3px center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.promotionBox {
+  background-color: rgba(240, 248, 255, 0.9);
+  border: 1px dashed #333;
+  border-radius: 5px;
+  margin-bottom: .2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.promoCode {
+  display: inline-block;
+  line-height: .54rem;
+  font-size: .38rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.promoText {
+  font-size: 0.26rem;
+  color: #333;
+  text-align: center;
+}
+
+.matchesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.08rem;
+  overflow: hidden;
+  border-bottom: 1px rgba(235, 235, 235, 1.00) solid;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.matchRow:last-child {
+  border-bottom: none;
+}
+
+.teamOdds {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+}
+
+.teamLogo {
+  width: .3rem;
+  height: 0.3rem;
+  object-fit: contain;
+}
+
+.teamName {
+  font-size: 0.3rem;
+  font-weight: 500;
+  color: #333;
+}

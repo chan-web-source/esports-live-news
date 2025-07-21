@@ -1,0 +1,150 @@
+
+.container {
+  width: calc(33.33% - 10px);
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #1e262e;
+  align-self: flex-start;
+}
+
+.balanceSection {
+  color: #e3e6ea;
+  text-align: center;
+}
+
+.balanceTitle {
+  font-size: .4rem;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 22px;
+}
+
+.balanceAmount {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.currencySymbol {
+  font-size: .6rem;
+  color: #9e9e9e;
+  margin-right: 0.2rem; /* 5px */
+}
+
+.balanceValue {
+  font-size: 1.2rem; /* 80px */
+  font-weight: 700;
+}
+
+.balanceCents {
+  font-size: 0.8rem; /* 40px */
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: .6rem 0; /* 30px */
+  gap: 10px;
+}
+
+.actionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 0.3rem; /* 15px */
+  padding: 0.3rem 0; /* 20px 0 */
+  cursor: pointer;
+}
+
+.actionIcon {
+  width: 0.96rem; /* 48px */
+  height: 0.96rem; /* 48px */
+  border-radius: 50%;
+  background-color: #1e88e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.2rem; /* 10px */
+}
+
+.actionText {
+  font-size: 0.32rem; /* 16px */
+  color: #1e88e5;
+}
+
+.currenciesList {
+  color: #333;
+  background-color: #fff;
+  border-radius: 0.3rem; /* 15px */
+  overflow: hidden;
+}
+
+.currencyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.4rem; /* 20px */
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.currencyItem:last-child {
+  border-bottom: none;
+}
+
+.currencyInfo {
+  display: flex;
+  align-items: center;
+}
+
+.currencyIcon {
+  margin-right: 0.3rem; /* 15px */
+}
+
+.currencyDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.currencyName {
+  font-size: 0.36rem;
+  font-weight: 500;
+}
+
+.currencyPriceInfo {
+  display: flex;
+  align-items: center;
+}
+
+.currencyPrice {
+  font-size: 0.32rem;
+  color: #666;
+  margin-right: 0.2rem; /* 10px */
+}
+
+.currencyChange {
+  font-size: 0.32rem; /* 16px */
+}
+
+.negative {
+  color: #f44336;
+}
+
+.positive {
+  color: #4caf50;
+}
+
+.currencyValue {
+  text-align: right;
+}
+
+.currencyValueAmount {
+  font-size: 0.36rem; /* 24px */
+  font-weight: 500;
+}
+
+.currencyValueSymbol {
+  font-size: 0.32rem; /* 18px */
+  color: #9e9e9e;
+}
